@@ -250,6 +250,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   _lifeTime: 5
+  _meshRenderer: {fileID: 4314719191447652175}
   _ownerNetIdentity: {fileID: 0}
   _ballObjectPool: {fileID: 0}
   _rb: {fileID: 3832338283328971511}

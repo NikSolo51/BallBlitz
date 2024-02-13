@@ -145,7 +145,6 @@ public class Cannon : NetworkBehaviour
         }
         _currentShootPower = 0f;
         
-        ball._ownerNetIdentity = networkIdentity;
-        ball._ballObjectPool = _ballObjectPool;
+        ball.Construct(networkIdentity,_ballObjectPool,_team);
     }
 }
