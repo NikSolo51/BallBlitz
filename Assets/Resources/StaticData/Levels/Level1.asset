@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a2367527b6cca43b7c330e184d4a04, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  LevelKey: Level1
+  SoundManagerData:
+    _soundManagerType: 1
+    _sounds:
+    - name: tap1
+      clip: {fileID: 8300000, guid: d822305ee46829f4d8acebdf92c3cfab, type: 3}
+      masterVolume: 1
+      masterPitch: 1
+      volume: 0.1
+      pitch: 1
+      randomVolume: 0
+      randomPitch: 0.224
+      playOnAwake: 0
+      loop: 0
+      source: {fileID: 0}
+    - name: tap2
+      clip: {fileID: 8300000, guid: acd7a14da8662394daebeacf812f100e, type: 3}
+      masterVolume: 1
+      masterPitch: 1
+      volume: 0.1
+      pitch: 1
+      randomVolume: 0
+      randomPitch: 0.215
+      playOnAwake: 0
+      loop: 0
+      source: {fileID: 0}
+    - name: tap3
+      clip: {fileID: 8300000, guid: 6f19611d0fcda34458a773efd9697552, type: 3}
+      masterVolume: 1
+      masterPitch: 1
+      volume: 0.1
+      pitch: 1
+      randomVolume: 0
+      randomPitch: 0.195
+      playOnAwake: 0
+      loop: 0
+      source: {fileID: 0}
+    - name: tap4
+      clip: {fileID: 8300000, guid: a2d6517c9d867644e9ad2f59d3a8ec85, type: 3}
+      masterVolume: 1
+      masterPitch: 1
+      volume: 0.1
+      pitch: 1
+      randomVolume: 0
+      randomPitch: 0.152
+      playOnAwake: 0
+      loop: 0
+      source: {fileID: 0}
+    - name: openslot
+      clip: {fileID: 8300000, guid: f30970ea41edf38488af64171d478f8d, type: 3}
+      masterVolume: 1
+      masterPitch: 1
+      volume: 0.1
+      pitch: 1
+      randomVolume: 0
+      randomPitch: 0.258
+      playOnAwake: 0
+      loop: 0
+      source: {fileID: 0}
+    - name: TrainBG
+      clip: {fileID: 8300000, guid: b3bd8de73daaf41499129b2382918014, type: 3}
+      masterVolume: 1
+      masterPitch: 1
+      volume: 0.1
+      pitch: 1
+      randomVolume: 0
+      randomPitch: 0
+      playOnAwake: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: MusicBG
+      clip: {fileID: 8300000, guid: 9a8752f67e5d75a4abd17b496fe9df24, type: 3}
+      masterVolume: 1
+      masterPitch: 1
+      volume: 0.1
+      pitch: 1
+      randomVolume: 0
+      randomPitch: 0
+      playOnAwake: 1
+      loop: 1
+      source: {fileID: 0}
+    - name: TikTak
+      clip: {fileID: 8300000, guid: ce6bf250c37dedd4e97d7d4fa5c078f6, type: 3}
+      masterVolume: 1
+      masterPitch: 1
+      volume: 0.1
+      pitch: 1
+      randomVolume: 0
+      randomPitch: 0
+      playOnAwake: 1
+      loop: 1
+      source: {fileID: 0}
+    _clips: []
+  InitialCameraPosition: {x: -7.37, y: 1.87, z: -4.74}
